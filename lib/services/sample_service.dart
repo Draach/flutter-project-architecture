@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-// TODO: Decide if we are using dio or http or something else
+
 class SampleService {
   var dio = Dio();
   var url = Uri.parse("https://jsonplaceholder.typicode.com/users");

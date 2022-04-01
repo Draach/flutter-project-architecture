@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_project_architecture/_blocs/auth/auth_bloc.dart';
-import 'package:flutter_project_architecture/_router/app_router.dart';
+import 'package:flutter_project_architecture/blocs/auth/auth_bloc.dart';
+import 'package:flutter_project_architecture/router/app_router.dart';
 import 'package:flutter_project_architecture/theme/style.dart';
 
 void main() {
