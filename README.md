@@ -7,10 +7,10 @@ A flutter base template implementing the BLoC (Business Logic Component) pattern
 - [dio: Http Client for Dart](https://pub.dev/packages/dio)
 
 ## Structure
-+ _blocs: Global bloc providers to be used for the entire app. example: Authentication Bloc.
-+ _models: Global models for the app.
-+ _router: Here we have a single file containing the navigation logic.
-+ _services: Service providers for the app, those will mainly/only used by the blocs.
++ blocs: Global bloc providers to be used for the entire app. example: Authentication Bloc.
++ models: Global models for the app.
++ router: Here we have a single file containing the navigation logic.
++ services: Service providers for the app, those will mainly/only used by the blocs.
 + animations: Here we will handle custom global animations if needed.
 + pages: Presentation layer with modules for each section/page/screen.
 + + Example structure inside a pages module:
